@@ -107,7 +107,7 @@ iverilog -g2012 -o cpu tb/tb.sv *.sv
 vvp cpu
 gtkwave pipelined_cpu.vcd
 
-Acknowledgements
+## Acknowledgements
 
 Digital Design and Computer Architecture – RISC-V Edition
 David M. Harris, Sarah L. Harris

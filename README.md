@@ -7,8 +7,6 @@ The processor supports a meaningful subset of the **RV32I** instruction set and 
 
 ## Overview
 
-The processor is organized as a classic in-order, single-issue, five-stage pipeline:
-
 1. **Instruction Fetch (IF)**  
 2. **Instruction Decode and Register Fetch (ID)**  
 3. **Execute / Address Calculation (EX)**  
@@ -101,6 +99,7 @@ The processor currently supports the following instructions:
 iverilog -g2012 -o cpu tb/tb.sv *.sv
 vvp cpu
 gtkwave pipelined_cpu.vcd
+```
 
 ## Acknowledgements
 

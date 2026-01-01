@@ -64,11 +64,6 @@ The processor currently supports the following instructions:
 - Automatically inserts a pipeline stall and bubble when a dependent instruction follows a load
 - Correctly stalls the PC and IF/ID pipeline register while flushing ID/EX
 
-#### Control Hazards
-- Branch decision resolved in the **EX stage**
-- Pipeline flush applied to IF/ID and ID/EX stages on taken branches
-- Branch target computed using sign-extended immediate and EX-stage PC
-
 ---
 
 ## Microarchitecture Summary
